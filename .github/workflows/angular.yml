@@ -18,10 +18,10 @@ jobs:
                 node-version: 22
             
             - name: Instalar Dependencias
-              run: nmp install
+              run: npm install
               
             - name: Ejecutar pruebas
-              run: nmp run test --run
+              run: npm run test --run
             
             - name: Generar Build
-              run: nmp run build
+              run: npm run build
