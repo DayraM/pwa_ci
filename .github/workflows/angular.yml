@@ -21,7 +21,7 @@ jobs:
               run: nmp install
               
             - name: Ejecutar pruebas
-              run: nmp run test -- --run
+              run: nmp run test --run
             
             - name: Generar Build
               run: nmp run build
