@@ -20,4 +20,9 @@ describe('App', () => {
     expect(app.titulo).toBe('Gestor de Tareas Heliconius');
   });
 
+  it('El título debe contener el nombre de la empresa', () => {
+    const app = new App();
+    expect(app.titulo).toContain('Heliconius');
+  });
+
 });
